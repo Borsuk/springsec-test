@@ -174,12 +174,14 @@
 		          <version>1.0.3</version>
 		          <configuration>
 		          	<server>stackato-aws</server>
-		          	<target>http://api.stackprod.voxgenhosted.com</target>
+		          	<username>vgstackato</username>
+		          	<password>l0nd0n</password>
+		          	<target>http://api.stackbuild.voxgenhosted.com</target>
 		          	<org>VoxGen</org>
-		          	<space>Admin</space>
+		          	<space>TEST</space>
 <!-- 		          	<appStartupTimeout>180</appStartupTimeout> -->
 		          </configuration>
-		      </plugin>              
+		      </plugin>               
         </plugins>
     </build>
 </project>
