@@ -168,6 +168,18 @@
                     <mainClass>org.test.int1.Main</mainClass>
                 </configuration>
             </plugin>
+		      <plugin>
+		          <groupId>org.cloudfoundry</groupId>
+		          <artifactId>cf-maven-plugin</artifactId>
+		          <version>1.0.3</version>
+		          <configuration>
+		          	<server>stackato-aws</server>
+		          	<target>http://api.stackprod.voxgenhosted.com</target>
+		          	<org>VoxGen</org>
+		          	<space>Admin</space>
+<!-- 		          	<appStartupTimeout>180</appStartupTimeout> -->
+		          </configuration>
+		      </plugin>              
         </plugins>
     </build>
 </project>
