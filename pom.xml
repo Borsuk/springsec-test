@@ -178,6 +178,7 @@
 		          	<org>VoxGen</org>
 		          	<space>TEST</space>
 		          	<appStartupTimeout>180</appStartupTimeout>
+		          	<trustSelfSignedCerts>true</trustSelfSignedCerts>
 		          </configuration>
 		      </plugin>                  
         </plugins>
