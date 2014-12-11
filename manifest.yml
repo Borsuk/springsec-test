@@ -1,5 +1,6 @@
 applications:
 - name: SpringSec
+  target: target/springsec-1.0.0-BUILD-SNAPSHOT.war
 #  url:
 #    - springsec.stackbuild.voxgenhosted.com
   memory: 1G
