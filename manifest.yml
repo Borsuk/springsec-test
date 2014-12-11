@@ -1,0 +1,18 @@
+applications:
+- name: SpringSec
+#  url:
+#    - springsec.stackbuild.voxgenhosted.com
+  memory: 1G
+  disk: 2G
+  services:
+#    springsec_fs:
+#      type: filesystem
+#    rabbit_broker:
+#      type: rabbitmq3
+#    springsec_db:
+#      label: postgresql
+  stackato:
+#    env:
+#       spring_profiles_active: cloud
+#    hooks:
+#      post-staging:
