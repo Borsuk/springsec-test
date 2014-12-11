@@ -1,6 +1,6 @@
 applications:
 - name: SpringSec
-  target: target/springsec-1.0.0-BUILD-SNAPSHOT.war
+  path: target/
 #  url:
 #    - springsec.stackbuild.voxgenhosted.com
   memory: 1G
@@ -12,7 +12,7 @@ applications:
 #      type: rabbitmq3
 #    springsec_db:
 #      label: postgresql
-  stackato:
+#  stackato:
 #    env:
 #       spring_profiles_active: cloud
 #    hooks:
