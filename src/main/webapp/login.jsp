@@ -9,7 +9,7 @@
 <body onload="document.loginData.j_username.focus();">
   <section class="container" > 
     <div class="login">
-      <h1>Login to Administration Console (my hovercraft is full of eels)</h1>
+      <h1>Login to Administration Console</h1>
       <form id="loginData" name="loginData" method="post" action="j_spring_security_check">
         <p>
             <input type="text" name="j_username" value="" placeholder="Username">
