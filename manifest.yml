@@ -1,11 +1,11 @@
 applications:
 - name: SpringSec
-#  path: target/springsec-1.0.0-BUILD-SNAPSHOT.war
+  path: target/springsec-1.0.0-BUILD-SNAPSHOT.war
 #  url:
 #    - springsec.stackbuild.voxgenhosted.com
-  memory: 512M
+  memory: 1G
   disk: 2G
-  services:
+#  services:
 #    springsec_fs:
 #      type: filesystem
 #    rabbit_broker:
