@@ -3,7 +3,7 @@ applications:
   path: target/springsec-1.0.0-BUILD-SNAPSHOT.war
 #  url:
 #    - springsec.stackbuild.voxgenhosted.com
-  memory: 1G
+  memory: 768M
   disk: 2G
 #  services:
 #    springsec_fs:
