@@ -1,9 +1,9 @@
 applications:
 - name: SpringSec
   path: target/springsec-1.0.0-BUILD-SNAPSHOT.war
-#  url:
-#    - springsec.stackbuild.voxgenhosted.com
-  memory: 768M
+  url:
+    - springsec.stackbuild.voxgenhosted.com
+  memory: 512M
   disk: 2G
 #  services:
 #    springsec_fs:
